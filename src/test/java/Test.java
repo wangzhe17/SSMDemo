@@ -4,7 +4,7 @@ public class Test {
     @org.junit.Test
     public void test() {
 
-        String url = "jdbc:mysql://127.0.0.1:3306/mysql?useUnicode=true&characterEncoding=UTF-8";
+        String url = "jdbc:mysql://localhost:3306/mysql?useUnicode=true&amp;characterEncoding=UTF-8";
         String driver = "com.mysql.jdbc.Driver";
         try {
             Class.forName(driver);
